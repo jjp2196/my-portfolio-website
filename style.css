@@ -1,0 +1,174 @@
+/* Global Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1em;
+  }
+  
+  /* Separator Styles */
+  .resume_separator, .separator {
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+  }
+  
+  /* Button Styles */
+  .resume_btn {
+    background: black;
+    color: #fff;
+    border: none;
+    position: relative;
+    height: 40px;
+    font-size: 1em;
+    padding: 0 2em;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .resume_btn:hover {
+    background: #fff;
+    color: black;
+  }
+  
+  .resume_btn:before, .resume_btn:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: black;
+  }
+  
+  .resume_btn:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .resume_btn:hover:before, .resume_btn:hover:after {
+    width: 100%;
+  }
+  
+  /* Portfolio Styles */
+  .sub-title {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  .title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    text-transform: initial;
+  }
+  
+  /* Container Styles */
+  .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .portfolio-container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+  /* Image Styles */
+  .animation, .image {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+  
+  /* Overlay Styles */
+  .overlay {
+    background-color: #000;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  .cell-container:hover .overlay {
+    padding: 0px;
+    opacity: .75;
+  }
+  
+  .text {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  /* About Section Styles */
+  .about {
+    padding: 30px;
+  }
+  
+  .row {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .see_more {
+    font-size: 16px;
+    color: #616466;
+  }
+  
+  .see_more:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  /* Social Media Icons Styles */
+  .fa-medium, .fa-facebook-square {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .fa-facebook {
+    color: #3b5998;
+  }
+  
+  .fa-github {
+    color: black;
+  }
+  
+  .fa-linkedin {
+    color: #0077B5;
+  }
+  
+  .fa-instagram {
+    color: #C13584;
+  }
+  
